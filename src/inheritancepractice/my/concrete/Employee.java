@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package inheritancepractice.my.concrete;
 
@@ -10,8 +5,8 @@ package inheritancepractice.my.concrete;
  *
  * @author Justin
  */
-class Employee {
+public class Employee {
     public int employeeNumber;
-    String address;
-    String employeeBirthdate;
+    public String address;
+    public String employeeBirthdate;
 }

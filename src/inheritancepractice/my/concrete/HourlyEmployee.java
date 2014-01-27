@@ -10,6 +10,7 @@ package inheritancepractice.my.concrete;
  *
  * @author Justin
  */
-class HourlyEmployee extends Employee {
-    int hours;
+public class HourlyEmployee extends Employee {
+    public int hours;
+    public int wage;
 }
