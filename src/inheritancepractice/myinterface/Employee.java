@@ -11,7 +11,7 @@ package inheritancepractice.myinterface;
  * @author Justin
  */
 public interface Employee {
-    String Name(String name);
-    String Address(String address);
+    public String Name(String name);
+    public String Address(String address);
     
 }
