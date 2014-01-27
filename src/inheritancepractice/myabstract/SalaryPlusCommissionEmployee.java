@@ -10,6 +10,6 @@ package inheritancepractice.myabstract;
  *
  * @author Justin
  */
-public class SalaryPlusCommissionEmployee {
+public class SalaryPlusCommissionEmployee extends Employee{
     
 }
