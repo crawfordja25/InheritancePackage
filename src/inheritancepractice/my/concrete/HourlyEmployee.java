@@ -10,7 +10,6 @@ package inheritancepractice.my.concrete;
  *
  * @author Justin
  */
-class SalariedEmployee extends Employee{
-    int salary;
-    int bonuses;
+class HourlyEmployee extends Employee {
+    int hours;
 }
