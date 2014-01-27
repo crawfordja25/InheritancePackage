@@ -10,6 +10,8 @@ package inheritancepractice.myabstract;
  *
  * @author Justin
  */
-public class Employee {
-    
+public abstract class Employee {
+    String employeeName;
+    int employeeNumber;
+    String employeeAddress;
 }

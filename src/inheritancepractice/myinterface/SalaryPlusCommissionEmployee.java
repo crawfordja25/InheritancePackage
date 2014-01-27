@@ -18,8 +18,8 @@ public class SalaryPlusCommissionEmployee implements Employee{
         return address;
     }
     
-    public int wages(int salary, int sales, int commisionRate){
-        int commission = sales*commisionRate;
+    public double wages(int salary, int sales, double commisionRate){
+        double commission = sales*commisionRate;
         return salary+commission;
     }
 }
